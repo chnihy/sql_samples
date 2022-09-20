@@ -1,6 +1,6 @@
 USE TEST_db;
 
-/*
+
 -- create customer profile table
 CREATE TABLE customer_profile(
     customer_id INT IDENTITY (100,1) PRIMARY KEY,
@@ -8,14 +8,13 @@ CREATE TABLE customer_profile(
     last_name VARCHAR (255) NOT NULL,
     company_name VARCHAR (255) NOT NULL
 );
-*/
 
 
+-- dummy data
 INSERT INTO customer_profile
-VALUES ('Bob', 'Loblaw', 'Bob Loblaws Law Firm');
+VALUES ('Bob', 'Loblaw', 'Bob Loblaws Law Firm'),
+('Dan', 'Druff', 'Dan Druffs Hair Care'),
+('Ana', 'Moly', 'AnaMolys Fortune Teller');
 
-/*
-DELETE FROM customer_profile WHERE customer_id = 102;
-*/
-
+-- print
 SELECT * FROM customer_profile;

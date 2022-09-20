@@ -1,5 +1,6 @@
 USE TEST_db;
 
+-- clearing
 DROP TABLE IF EXISTS all_orders;
 
 -- create all orders table
@@ -17,4 +18,5 @@ CREATE TABLE all_orders(
     etl_ts DATE
 );
 
+-- print
 SELECT * from all_orders;

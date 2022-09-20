@@ -27,7 +27,7 @@ VALUES(
     500.00,
     'open'
 ),
-
+(
     101,
     347,
     'Shampoo',
@@ -36,7 +36,7 @@ VALUES(
     210.22,
     'open'
 ),
-
+(
     102,
     341,
     'Crystal Ball',
